@@ -51,6 +51,33 @@ nav{
     width: fit-content;
     font-size: 30px;
 }
+.barss{
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+}
+.bars-menu{
+    background-color: rgba(0, 0, 0, 0.782);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    opacity: 0; 
+}
+.bars-menu li{
+    padding: 15px;
+
+}
+.bars-menu li:hover{
+    background-color: rgb(78, 78, 78);
+}
+.barss:hover .bars-menu{
+    opacity: 1;
+}
 
 
 
