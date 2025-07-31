@@ -75,7 +75,7 @@ nav{
 .bars-menu li:hover{
     background-color: rgb(78, 78, 78);
 }
-.barss:hover .bars-menu{
+.barss:focus .bars-menu{
     opacity: 1;
 }
 
